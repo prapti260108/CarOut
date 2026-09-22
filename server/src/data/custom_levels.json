@@ -1,0 +1,82 @@
+[
+  {
+    "name": "My Custom Jam",
+    "gridSize": {
+      "rows": 6,
+      "cols": 6
+    },
+    "vehicles": [
+      {
+        "id": "custom_1",
+        "row": 1,
+        "col": 1,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#EF4444",
+        "type": "sedan"
+      },
+      {
+        "id": "custom_2",
+        "row": 3,
+        "col": 2,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#3B82F6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_9283",
+        "row": 3,
+        "col": 2,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#EF4444",
+        "type": "sedan"
+      },
+      {
+        "id": "car_9849",
+        "row": 3,
+        "col": 2,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#EF4444",
+        "type": "sedan"
+      },
+      {
+        "id": "car_0349",
+        "row": 4,
+        "col": 3,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#EF4444",
+        "type": "sedan"
+      },
+      {
+        "id": "car_0732",
+        "row": 4,
+        "col": 3,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#EF4444",
+        "type": "sedan"
+      }
+    ],
+    "obstacles": [],
+    "id": "custom_1789993591792",
+    "targetPar": 6,
+    "solutionMoves": [
+      "custom_1",
+      "custom_2",
+      "car_9283",
+      "car_9849",
+      "car_0349",
+      "car_0732"
+    ]
+  }
+]

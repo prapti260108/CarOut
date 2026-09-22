@@ -1,0 +1,14 @@
+{
+  "name": "car-out-server",
+  "version": "1.0.0",
+  "description": "Backend server for Car Out parking puzzle game",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}

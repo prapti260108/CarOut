@@ -1,0 +1,231 @@
+{
+  "park_master": [
+    {
+      "id": 1,
+      "name": "First Parking Line",
+      "targetPar": 1,
+      "cars": [
+        { "id": "pm_car_1", "color": "#EF4444", "startX": 100, "startY": 380, "targetX": 100, "targetY": 100 }
+      ],
+      "obstacles": []
+    },
+    {
+      "id": 2,
+      "name": "Parallel Bays",
+      "targetPar": 1,
+      "cars": [
+        { "id": "pm_car_1", "color": "#EF4444", "startX": 90, "startY": 380, "targetX": 90, "targetY": 100 },
+        { "id": "pm_car_2", "color": "#3B82F6", "startX": 230, "startY": 380, "targetX": 230, "targetY": 100 }
+      ],
+      "obstacles": []
+    },
+    {
+      "id": 3,
+      "name": "Cross Paths",
+      "targetPar": 1,
+      "cars": [
+        { "id": "pm_car_1", "color": "#EF4444", "startX": 80, "startY": 380, "targetX": 240, "targetY": 100 },
+        { "id": "pm_car_2", "color": "#3B82F6", "startX": 240, "startY": 380, "targetX": 80, "targetY": 100 }
+      ],
+      "obstacles": []
+    },
+    {
+      "id": 4,
+      "name": "Central Island",
+      "targetPar": 1,
+      "cars": [
+        { "id": "pm_car_1", "color": "#EF4444", "startX": 80, "startY": 380, "targetX": 240, "targetY": 100 },
+        { "id": "pm_car_2", "color": "#10B981", "startX": 240, "startY": 380, "targetX": 80, "targetY": 100 }
+      ],
+      "obstacles": [
+        { "x": 160, "y": 240, "radius": 32 }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Triple Convergence",
+      "targetPar": 1,
+      "cars": [
+        { "id": "pm_car_1", "color": "#EF4444", "startX": 60, "startY": 390, "targetX": 260, "targetY": 90 },
+        { "id": "pm_car_2", "color": "#3B82F6", "startX": 160, "startY": 390, "targetX": 160, "targetY": 90 },
+        { "id": "pm_car_3", "color": "#FACC15", "startX": 260, "startY": 390, "targetX": 60, "targetY": 90 }
+      ],
+      "obstacles": []
+    },
+    {
+      "id": 6,
+      "name": "The Double Pillars",
+      "targetPar": 1,
+      "cars": [
+        { "id": "pm_car_1", "color": "#EF4444", "startX": 70, "startY": 390, "targetX": 250, "targetY": 90 },
+        { "id": "pm_car_2", "color": "#8B5CF6", "startX": 250, "startY": 390, "targetX": 70, "targetY": 90 }
+      ],
+      "obstacles": [
+        { "x": 110, "y": 240, "radius": 24 },
+        { "x": 210, "y": 240, "radius": 24 }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Four Corners",
+      "targetPar": 1,
+      "cars": [
+        { "id": "pm_car_1", "color": "#EF4444", "startX": 60, "startY": 390, "targetX": 260, "targetY": 90 },
+        { "id": "pm_car_2", "color": "#3B82F6", "startX": 260, "startY": 390, "targetX": 60, "targetY": 90 },
+        { "id": "pm_car_3", "color": "#10B981", "startX": 120, "startY": 390, "targetX": 200, "targetY": 90 },
+        { "id": "pm_car_4", "color": "#FACC15", "startX": 200, "startY": 390, "targetX": 120, "targetY": 90 }
+      ],
+      "obstacles": []
+    },
+    {
+      "id": 8,
+      "name": "Barrier Slalom",
+      "targetPar": 1,
+      "cars": [
+        { "id": "pm_car_1", "color": "#EF4444", "startX": 80, "startY": 390, "targetX": 240, "targetY": 90 },
+        { "id": "pm_car_2", "color": "#06B6D4", "startX": 240, "startY": 390, "targetX": 80, "targetY": 90 }
+      ],
+      "obstacles": [
+        { "x": 80, "y": 220, "radius": 28 },
+        { "x": 240, "y": 260, "radius": 28 }
+      ]
+    }
+  ],
+  "bus_jam": [
+    {
+      "id": 1,
+      "name": "Morning Commute",
+      "passengers": ["#EF4444", "#EF4444", "#EF4444", "#3B82F6", "#3B82F6", "#3B82F6"],
+      "buses": [
+        { "id": "bus_1", "color": "#EF4444", "capacity": 3, "name": "Red Bus" },
+        { "id": "bus_2", "color": "#3B82F6", "capacity": 3, "name": "Blue Bus" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Three Color Rush",
+      "passengers": [
+        "#EF4444", "#3B82F6", "#EF4444", "#10B981", "#10B981", "#3B82F6",
+        "#EF4444", "#3B82F6", "#10B981"
+      ],
+      "buses": [
+        { "id": "bus_1", "color": "#EF4444", "capacity": 3, "name": "Red Express" },
+        { "id": "bus_2", "color": "#3B82F6", "capacity": 3, "name": "Blue Metro" },
+        { "id": "bus_3", "color": "#10B981", "capacity": 3, "name": "Green Eco" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Grand Central Queue",
+      "passengers": [
+        "#F59E0B", "#EF4444", "#F59E0B", "#3B82F6", "#EF4444", "#3B82F6",
+        "#F59E0B", "#EF4444", "#3B82F6", "#10B981", "#10B981", "#10B981"
+      ],
+      "buses": [
+        { "id": "bus_1", "color": "#F59E0B", "capacity": 3, "name": "Yellow Cab Bus" },
+        { "id": "bus_2", "color": "#EF4444", "capacity": 3, "name": "Red Shuttle" },
+        { "id": "bus_3", "color": "#3B82F6", "capacity": 3, "name": "Blue Coach" },
+        { "id": "bus_4", "color": "#10B981", "capacity": 3, "name": "Green Transit" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Rush Hour Squeeze",
+      "passengers": [
+        "#8B5CF6", "#EF4444", "#8B5CF6", "#10B981", "#EF4444", "#10B981",
+        "#8B5CF6", "#EF4444", "#10B981", "#3B82F6", "#3B82F6", "#3B82F6"
+      ],
+      "buses": [
+        { "id": "bus_1", "color": "#8B5CF6", "capacity": 3, "name": "Purple Sprinter" },
+        { "id": "bus_2", "color": "#EF4444", "capacity": 3, "name": "Red Rapid" },
+        { "id": "bus_3", "color": "#10B981", "capacity": 3, "name": "Green Line" },
+        { "id": "bus_4", "color": "#3B82F6", "capacity": 3, "name": "Blue Flyer" }
+      ]
+    }
+  ],
+  "traffic_escape": [
+    {
+      "id": 1,
+      "name": "Slow Country Highway",
+      "speed": 2.2,
+      "gapMin": 140,
+      "gapMax": 200,
+      "playerCarsCount": 3,
+      "trafficColors": ["#EF4444", "#3B82F6", "#10B981", "#F59E0B"]
+    },
+    {
+      "id": 2,
+      "name": "Suburban Merge",
+      "speed": 3.2,
+      "gapMin": 120,
+      "gapMax": 170,
+      "playerCarsCount": 4,
+      "trafficColors": ["#3B82F6", "#8B5CF6", "#EC4899", "#14B8A6"]
+    },
+    {
+      "id": 3,
+      "name": "Expressway Rush",
+      "speed": 4.0,
+      "gapMin": 100,
+      "gapMax": 150,
+      "playerCarsCount": 5,
+      "trafficColors": ["#EF4444", "#FACC15", "#06B6D4", "#F97316"]
+    },
+    {
+      "id": 4,
+      "name": "Speed Demon Highway",
+      "speed": 4.8,
+      "gapMin": 90,
+      "gapMax": 130,
+      "playerCarsCount": 6,
+      "trafficColors": ["#EF4444", "#10B981", "#3B82F6", "#A855F7", "#EAB308"]
+    }
+  ],
+  "car_match": [
+    {
+      "id": 1,
+      "name": "Duo Triplet Warmup",
+      "cars": [
+        { "id": "cm_1", "color": "#EF4444", "label": "Red Sedan" },
+        { "id": "cm_2", "color": "#3B82F6", "label": "Blue Sedan" },
+        { "id": "cm_3", "color": "#EF4444", "label": "Red Sedan" },
+        { "id": "cm_4", "color": "#3B82F6", "label": "Blue Sedan" },
+        { "id": "cm_5", "color": "#EF4444", "label": "Red Sedan" },
+        { "id": "cm_6", "color": "#3B82F6", "label": "Blue Sedan" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Traffic Triple Trio",
+      "cars": [
+        { "id": "cm_1", "color": "#EF4444", "label": "Red" },
+        { "id": "cm_2", "color": "#10B981", "label": "Green" },
+        { "id": "cm_3", "color": "#FACC15", "label": "Yellow" },
+        { "id": "cm_4", "color": "#EF4444", "label": "Red" },
+        { "id": "cm_5", "color": "#10B981", "label": "Green" },
+        { "id": "cm_6", "color": "#FACC15", "label": "Yellow" },
+        { "id": "cm_7", "color": "#EF4444", "label": "Red" },
+        { "id": "cm_8", "color": "#10B981", "label": "Green" },
+        { "id": "cm_9", "color": "#FACC15", "label": "Yellow" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Four Fleet Fusion",
+      "cars": [
+        { "id": "cm_1", "color": "#EF4444", "label": "Red" },
+        { "id": "cm_2", "color": "#3B82F6", "label": "Blue" },
+        { "id": "cm_3", "color": "#10B981", "label": "Green" },
+        { "id": "cm_4", "color": "#8B5CF6", "label": "Purple" },
+        { "id": "cm_5", "color": "#EF4444", "label": "Red" },
+        { "id": "cm_6", "color": "#3B82F6", "label": "Blue" },
+        { "id": "cm_7", "color": "#10B981", "label": "Green" },
+        { "id": "cm_8", "color": "#8B5CF6", "label": "Purple" },
+        { "id": "cm_9", "color": "#EF4444", "label": "Red" },
+        { "id": "cm_10", "color": "#3B82F6", "label": "Blue" },
+        { "id": "cm_11", "color": "#10B981", "label": "Green" },
+        { "id": "cm_12", "color": "#8B5CF6", "label": "Purple" }
+      ]
+    }
+  ]
+}

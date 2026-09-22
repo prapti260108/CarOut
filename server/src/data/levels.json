@@ -1,0 +1,2707 @@
+[
+  {
+    "id": 1,
+    "name": "First Drive Out",
+    "difficulty": "Tutorial",
+    "gridSize": {
+      "rows": 5,
+      "cols": 5
+    },
+    "targetPar": 3,
+    "exits": {
+      "top": [
+        2
+      ],
+      "bottom": [
+        3
+      ],
+      "left": [
+        2
+      ],
+      "right": [
+        1,
+        4
+      ]
+    },
+    "vehicles": [
+      {
+        "id": "car_1",
+        "row": 1,
+        "col": 1,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#EF4444",
+        "type": "sedan"
+      },
+      {
+        "id": "car_2",
+        "row": 2,
+        "col": 2,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#3B82F6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_3",
+        "row": 4,
+        "col": 2,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#EAB308",
+        "type": "beetle"
+      }
+    ],
+    "obstacles": []
+  },
+  {
+    "id": 2,
+    "name": "Clearing the Way",
+    "difficulty": "Easy",
+    "gridSize": {
+      "rows": 6,
+      "cols": 6
+    },
+    "targetPar": 5,
+    "exits": {
+      "top": [
+        3,
+        4
+      ],
+      "bottom": [
+        2
+      ],
+      "left": [
+        3
+      ],
+      "right": [
+        1,
+        4
+      ]
+    },
+    "vehicles": [
+      {
+        "id": "car_1",
+        "row": 1,
+        "col": 3,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#10B981",
+        "type": "sedan"
+      },
+      {
+        "id": "car_2",
+        "row": 1,
+        "col": 1,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#F59E0B",
+        "type": "sedan"
+      },
+      {
+        "id": "car_3",
+        "row": 3,
+        "col": 0,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#8B5CF6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_4",
+        "row": 3,
+        "col": 2,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#EC4899",
+        "type": "beetle"
+      },
+      {
+        "id": "car_5",
+        "row": 4,
+        "col": 3,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#06B6D4",
+        "type": "sedan"
+      }
+    ],
+    "obstacles": []
+  },
+  {
+    "id": 3,
+    "name": "Level 03 - Downtown Rush",
+    "difficulty": "Medium",
+    "gridSize": {
+      "rows": 7,
+      "cols": 7
+    },
+    "targetPar": 8,
+    "exits": {
+      "top": [
+        2,
+        4
+      ],
+      "bottom": [
+        3,
+        5
+      ],
+      "left": [
+        2,
+        5
+      ],
+      "right": [
+        1,
+        4
+      ]
+    },
+    "obstacles": [
+      {
+        "type": "hydrant",
+        "row": 3,
+        "col": 4
+      }
+    ],
+    "vehicles": [
+      {
+        "id": "c1",
+        "row": 1,
+        "col": 1,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#EF4444",
+        "type": "sedan"
+      },
+      {
+        "id": "c2",
+        "row": 0,
+        "col": 4,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#10B981",
+        "type": "sedan"
+      },
+      {
+        "id": "c3",
+        "row": 1,
+        "col": 3,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#3B82F6",
+        "type": "sedan"
+      },
+      {
+        "id": "c4",
+        "row": 2,
+        "col": 0,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#EC4899",
+        "type": "beetle"
+      },
+      {
+        "id": "c5",
+        "row": 3,
+        "col": 2,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#F59E0B",
+        "type": "coupe"
+      },
+      {
+        "id": "c6",
+        "row": 4,
+        "col": 3,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#8B5CF6",
+        "type": "sedan"
+      },
+      {
+        "id": "c7",
+        "row": 4,
+        "col": 5,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#06B6D4",
+        "type": "sedan"
+      },
+      {
+        "id": "c8",
+        "row": 5,
+        "col": 0,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#EAB308",
+        "type": "beetle"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Big Delivery Truck",
+    "difficulty": "Easy",
+    "gridSize": {
+      "rows": 6,
+      "cols": 6
+    },
+    "targetPar": 4,
+    "vehicles": [
+      {
+        "id": "car_1",
+        "row": 1,
+        "col": 0,
+        "length": 3,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#3B82F6",
+        "type": "truck"
+      },
+      {
+        "id": "car_2",
+        "row": 0,
+        "col": 3,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#10B981",
+        "type": "sedan"
+      },
+      {
+        "id": "car_3",
+        "row": 2,
+        "col": 3,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#EF4444",
+        "type": "sedan"
+      },
+      {
+        "id": "car_4",
+        "row": 3,
+        "col": 2,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#8B5CF6",
+        "type": "sedan"
+      }
+    ],
+    "obstacles": []
+  },
+  {
+    "id": 5,
+    "name": "Level 05 - City Center Jam",
+    "difficulty": "Hard",
+    "gridSize": {
+      "rows": 8,
+      "cols": 8
+    },
+    "targetPar": 14,
+    "exits": {
+      "top": [
+        2,
+        4,
+        6
+      ],
+      "bottom": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "left": [
+        2,
+        4,
+        6
+      ],
+      "right": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ]
+    },
+    "obstacles": [
+      {
+        "type": "hydrant",
+        "row": 4,
+        "col": 4
+      }
+    ],
+    "vehicles": [
+      {
+        "id": "c1",
+        "row": 0,
+        "col": 2,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#10B981",
+        "type": "sedan"
+      },
+      {
+        "id": "c2",
+        "row": 1,
+        "col": 0,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#EF4444",
+        "type": "sedan"
+      },
+      {
+        "id": "c3",
+        "row": 0,
+        "col": 6,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#3B82F6",
+        "type": "sedan"
+      },
+      {
+        "id": "c4",
+        "row": 2,
+        "col": 3,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#F59E0B",
+        "type": "sedan"
+      },
+      {
+        "id": "c5",
+        "row": 2,
+        "col": 5,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#EC4899",
+        "type": "beetle"
+      },
+      {
+        "id": "c6",
+        "row": 3,
+        "col": 1,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#8B5CF6",
+        "type": "sedan"
+      },
+      {
+        "id": "c7",
+        "row": 4,
+        "col": 0,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#06B6D4",
+        "type": "sedan"
+      },
+      {
+        "id": "c8",
+        "row": 3,
+        "col": 5,
+        "length": 3,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#EA580C",
+        "type": "bus"
+      },
+      {
+        "id": "c9",
+        "row": 5,
+        "col": 3,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#22C55E",
+        "type": "sedan"
+      },
+      {
+        "id": "c10",
+        "row": 6,
+        "col": 0,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#EAB308",
+        "type": "beetle"
+      },
+      {
+        "id": "c11",
+        "row": 5,
+        "col": 2,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#A855F7",
+        "type": "sedan"
+      },
+      {
+        "id": "c12",
+        "row": 7,
+        "col": 4,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#F43F5E",
+        "type": "coupe"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Boxed In",
+    "difficulty": "Medium",
+    "gridSize": {
+      "rows": 6,
+      "cols": 6
+    },
+    "targetPar": 5,
+    "vehicles": [
+      {
+        "id": "car_1",
+        "row": 0,
+        "col": 4,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#EC4899",
+        "type": "sedan"
+      },
+      {
+        "id": "car_2",
+        "row": 1,
+        "col": 1,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#EF4444",
+        "type": "sedan"
+      },
+      {
+        "id": "car_3",
+        "row": 2,
+        "col": 3,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#3B82F6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_4",
+        "row": 3,
+        "col": 1,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#F59E0B",
+        "type": "taxi"
+      },
+      {
+        "id": "car_5",
+        "row": 4,
+        "col": 4,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#10B981",
+        "type": "sedan"
+      }
+    ],
+    "obstacles": []
+  },
+  {
+    "id": 7,
+    "name": "Double Trouble",
+    "difficulty": "Medium",
+    "gridSize": {
+      "rows": 6,
+      "cols": 6
+    },
+    "targetPar": 5,
+    "vehicles": [
+      {
+        "id": "car_1",
+        "row": 1,
+        "col": 0,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#06B6D4",
+        "type": "sedan"
+      },
+      {
+        "id": "car_2",
+        "row": 0,
+        "col": 2,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#8B5CF6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_3",
+        "row": 2,
+        "col": 2,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#EF4444",
+        "type": "sports"
+      },
+      {
+        "id": "car_4",
+        "row": 3,
+        "col": 4,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#F59E0B",
+        "type": "sedan"
+      },
+      {
+        "id": "car_5",
+        "row": 4,
+        "col": 1,
+        "length": 3,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#3B82F6",
+        "type": "truck"
+      }
+    ],
+    "obstacles": [
+      {
+        "row": 1,
+        "col": 4,
+        "type": "barrier"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Rush Hour Lane",
+    "difficulty": "Medium",
+    "gridSize": {
+      "rows": 6,
+      "cols": 6
+    },
+    "targetPar": 6,
+    "vehicles": [
+      {
+        "id": "car_1",
+        "row": 0,
+        "col": 1,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#EF4444",
+        "type": "sedan"
+      },
+      {
+        "id": "car_2",
+        "row": 0,
+        "col": 4,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#10B981",
+        "type": "sedan"
+      },
+      {
+        "id": "car_3",
+        "row": 2,
+        "col": 1,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#FACC15",
+        "type": "taxi"
+      },
+      {
+        "id": "car_4",
+        "row": 3,
+        "col": 3,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#3B82F6",
+        "type": "police"
+      },
+      {
+        "id": "car_5",
+        "row": 4,
+        "col": 0,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#8B5CF6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_6",
+        "row": 5,
+        "col": 2,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#EC4899",
+        "type": "sedan"
+      }
+    ],
+    "obstacles": []
+  },
+  {
+    "id": 9,
+    "name": "The Hydrant Block",
+    "difficulty": "Medium",
+    "gridSize": {
+      "rows": 6,
+      "cols": 6
+    },
+    "targetPar": 6,
+    "vehicles": [
+      {
+        "id": "car_1",
+        "row": 1,
+        "col": 4,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#F97316",
+        "type": "sedan"
+      },
+      {
+        "id": "car_2",
+        "row": 1,
+        "col": 1,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#EF4444",
+        "type": "sedan"
+      },
+      {
+        "id": "car_3",
+        "row": 2,
+        "col": 1,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#3B82F6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_4",
+        "row": 3,
+        "col": 2,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#10B981",
+        "type": "sedan"
+      },
+      {
+        "id": "car_5",
+        "row": 4,
+        "col": 3,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#8B5CF6",
+        "type": "ambulance"
+      },
+      {
+        "id": "car_6",
+        "row": 4,
+        "col": 0,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#FACC15",
+        "type": "taxi"
+      }
+    ],
+    "obstacles": [
+      {
+        "row": 0,
+        "col": 3,
+        "type": "hydrant"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Concentric Rings",
+    "difficulty": "Medium",
+    "gridSize": {
+      "rows": 6,
+      "cols": 6
+    },
+    "targetPar": 6,
+    "vehicles": [
+      {
+        "id": "car_1",
+        "row": 0,
+        "col": 3,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#3B82F6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_2",
+        "row": 1,
+        "col": 1,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#10B981",
+        "type": "sedan"
+      },
+      {
+        "id": "car_3",
+        "row": 2,
+        "col": 1,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#EF4444",
+        "type": "sports"
+      },
+      {
+        "id": "car_4",
+        "row": 4,
+        "col": 1,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#8B5CF6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_5",
+        "row": 3,
+        "col": 4,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#F97316",
+        "type": "sedan"
+      },
+      {
+        "id": "car_6",
+        "row": 2,
+        "col": 2,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#FACC15",
+        "type": "taxi"
+      }
+    ],
+    "obstacles": []
+  },
+  {
+    "id": 11,
+    "name": "City Mall Squeeze",
+    "difficulty": "Hard",
+    "gridSize": {
+      "rows": 7,
+      "cols": 7
+    },
+    "targetPar": 7,
+    "vehicles": [
+      {
+        "id": "car_1",
+        "row": 0,
+        "col": 2,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#EF4444",
+        "type": "sports"
+      },
+      {
+        "id": "car_2",
+        "row": 1,
+        "col": 3,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#3B82F6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_3",
+        "row": 2,
+        "col": 1,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#10B981",
+        "type": "sedan"
+      },
+      {
+        "id": "car_4",
+        "row": 3,
+        "col": 2,
+        "length": 3,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#F59E0B",
+        "type": "truck"
+      },
+      {
+        "id": "car_5",
+        "row": 3,
+        "col": 4,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#8B5CF6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_6",
+        "row": 4,
+        "col": 4,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#EC4899",
+        "type": "sedan"
+      },
+      {
+        "id": "car_7",
+        "row": 6,
+        "col": 3,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#06B6D4",
+        "type": "police"
+      }
+    ],
+    "obstacles": [
+      {
+        "row": 1,
+        "col": 1,
+        "type": "barrier"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Heavy Traffic Zone",
+    "difficulty": "Hard",
+    "gridSize": {
+      "rows": 7,
+      "cols": 7
+    },
+    "targetPar": 8,
+    "vehicles": [
+      {
+        "id": "car_1",
+        "row": 0,
+        "col": 5,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#EF4444",
+        "type": "sedan"
+      },
+      {
+        "id": "car_2",
+        "row": 1,
+        "col": 1,
+        "length": 3,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#3B82F6",
+        "type": "truck"
+      },
+      {
+        "id": "car_3",
+        "row": 2,
+        "col": 3,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#10B981",
+        "type": "sedan"
+      },
+      {
+        "id": "car_4",
+        "row": 3,
+        "col": 1,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#FACC15",
+        "type": "taxi"
+      },
+      {
+        "id": "car_5",
+        "row": 4,
+        "col": 4,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#8B5CF6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_6",
+        "row": 5,
+        "col": 1,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#F97316",
+        "type": "sedan"
+      },
+      {
+        "id": "car_7",
+        "row": 5,
+        "col": 3,
+        "length": 3,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#06B6D4",
+        "type": "truck"
+      },
+      {
+        "id": "car_8",
+        "row": 2,
+        "col": 0,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#EC4899",
+        "type": "sedan"
+      }
+    ],
+    "obstacles": [
+      {
+        "row": 0,
+        "col": 2,
+        "type": "cone"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Gridlock Express",
+    "difficulty": "Hard",
+    "gridSize": {
+      "rows": 7,
+      "cols": 7
+    },
+    "targetPar": 8,
+    "vehicles": [
+      {
+        "id": "car_1",
+        "row": 0,
+        "col": 1,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#EF4444",
+        "type": "sports"
+      },
+      {
+        "id": "car_2",
+        "row": 1,
+        "col": 4,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#3B82F6",
+        "type": "police"
+      },
+      {
+        "id": "car_3",
+        "row": 2,
+        "col": 1,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#10B981",
+        "type": "sedan"
+      },
+      {
+        "id": "car_4",
+        "row": 3,
+        "col": 2,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#FACC15",
+        "type": "taxi"
+      },
+      {
+        "id": "car_5",
+        "row": 4,
+        "col": 1,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#8B5CF6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_6",
+        "row": 5,
+        "col": 3,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#F97316",
+        "type": "sedan"
+      },
+      {
+        "id": "car_7",
+        "row": 4,
+        "col": 5,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#EC4899",
+        "type": "sedan"
+      },
+      {
+        "id": "car_8",
+        "row": 6,
+        "col": 1,
+        "length": 3,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#14B8A6",
+        "type": "truck"
+      }
+    ],
+    "obstacles": []
+  },
+  {
+    "id": 14,
+    "name": "Barricade Maze",
+    "difficulty": "Hard",
+    "gridSize": {
+      "rows": 7,
+      "cols": 7
+    },
+    "targetPar": 8,
+    "vehicles": [
+      {
+        "id": "car_1",
+        "row": 0,
+        "col": 0,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#EF4444",
+        "type": "sedan"
+      },
+      {
+        "id": "car_2",
+        "row": 1,
+        "col": 3,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#3B82F6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_3",
+        "row": 2,
+        "col": 1,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#10B981",
+        "type": "ambulance"
+      },
+      {
+        "id": "car_4",
+        "row": 3,
+        "col": 3,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#F59E0B",
+        "type": "sedan"
+      },
+      {
+        "id": "car_5",
+        "row": 4,
+        "col": 0,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#8B5CF6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_6",
+        "row": 5,
+        "col": 2,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#06B6D4",
+        "type": "police"
+      },
+      {
+        "id": "car_7",
+        "row": 5,
+        "col": 4,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#EC4899",
+        "type": "sedan"
+      },
+      {
+        "id": "car_8",
+        "row": 2,
+        "col": 5,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#F97316",
+        "type": "sedan"
+      }
+    ],
+    "obstacles": [
+      {
+        "row": 3,
+        "col": 0,
+        "type": "barrier"
+      },
+      {
+        "row": 4,
+        "col": 6,
+        "type": "barrier"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "The Spiral Lot",
+    "difficulty": "Hard",
+    "gridSize": {
+      "rows": 7,
+      "cols": 7
+    },
+    "targetPar": 9,
+    "vehicles": [
+      {
+        "id": "car_1",
+        "row": 0,
+        "col": 4,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#EF4444",
+        "type": "sports"
+      },
+      {
+        "id": "car_2",
+        "row": 1,
+        "col": 1,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#3B82F6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_3",
+        "row": 2,
+        "col": 1,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#10B981",
+        "type": "sedan"
+      },
+      {
+        "id": "car_4",
+        "row": 2,
+        "col": 3,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#FACC15",
+        "type": "taxi"
+      },
+      {
+        "id": "car_5",
+        "row": 3,
+        "col": 5,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#8B5CF6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_6",
+        "row": 4,
+        "col": 2,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#F97316",
+        "type": "sedan"
+      },
+      {
+        "id": "car_7",
+        "row": 5,
+        "col": 1,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#EC4899",
+        "type": "sedan"
+      },
+      {
+        "id": "car_8",
+        "row": 5,
+        "col": 4,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#06B6D4",
+        "type": "sedan"
+      },
+      {
+        "id": "car_9",
+        "row": 0,
+        "col": 1,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#14B8A6",
+        "type": "police"
+      }
+    ],
+    "obstacles": []
+  },
+  {
+    "id": 16,
+    "name": "Fleet Station",
+    "difficulty": "Expert",
+    "gridSize": {
+      "rows": 7,
+      "cols": 7
+    },
+    "targetPar": 9,
+    "vehicles": [
+      {
+        "id": "car_1",
+        "row": 0,
+        "col": 3,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#EF4444",
+        "type": "sedan"
+      },
+      {
+        "id": "car_2",
+        "row": 1,
+        "col": 0,
+        "length": 3,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#3B82F6",
+        "type": "truck"
+      },
+      {
+        "id": "car_3",
+        "row": 2,
+        "col": 2,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#10B981",
+        "type": "sedan"
+      },
+      {
+        "id": "car_4",
+        "row": 3,
+        "col": 1,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#FACC15",
+        "type": "taxi"
+      },
+      {
+        "id": "car_5",
+        "row": 3,
+        "col": 4,
+        "length": 3,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#8B5CF6",
+        "type": "truck"
+      },
+      {
+        "id": "car_6",
+        "row": 4,
+        "col": 2,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#F97316",
+        "type": "sedan"
+      },
+      {
+        "id": "car_7",
+        "row": 5,
+        "col": 2,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#EC4899",
+        "type": "ambulance"
+      },
+      {
+        "id": "car_8",
+        "row": 5,
+        "col": 5,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#06B6D4",
+        "type": "police"
+      },
+      {
+        "id": "car_9",
+        "row": 6,
+        "col": 0,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#EAB308",
+        "type": "sedan"
+      }
+    ],
+    "obstacles": [
+      {
+        "row": 0,
+        "col": 5,
+        "type": "cone"
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "type": "barrier"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Intersection Lockdown",
+    "difficulty": "Expert",
+    "gridSize": {
+      "rows": 8,
+      "cols": 8
+    },
+    "targetPar": 10,
+    "vehicles": [
+      {
+        "id": "car_1",
+        "row": 0,
+        "col": 2,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#EF4444",
+        "type": "sports"
+      },
+      {
+        "id": "car_2",
+        "row": 0,
+        "col": 6,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#3B82F6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_3",
+        "row": 1,
+        "col": 3,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#10B981",
+        "type": "sedan"
+      },
+      {
+        "id": "car_4",
+        "row": 2,
+        "col": 1,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#FACC15",
+        "type": "taxi"
+      },
+      {
+        "id": "car_5",
+        "row": 3,
+        "col": 2,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#8B5CF6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_6",
+        "row": 3,
+        "col": 4,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#F97316",
+        "type": "sedan"
+      },
+      {
+        "id": "car_7",
+        "row": 4,
+        "col": 0,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#EC4899",
+        "type": "sedan"
+      },
+      {
+        "id": "car_8",
+        "row": 4,
+        "col": 6,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#06B6D4",
+        "type": "police"
+      },
+      {
+        "id": "car_9",
+        "row": 5,
+        "col": 3,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#14B8A6",
+        "type": "ambulance"
+      },
+      {
+        "id": "car_10",
+        "row": 6,
+        "col": 4,
+        "length": 3,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#6366F1",
+        "type": "truck"
+      }
+    ],
+    "obstacles": [
+      {
+        "row": 2,
+        "col": 4,
+        "type": "hydrant"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Tight Boulevard",
+    "difficulty": "Expert",
+    "gridSize": {
+      "rows": 8,
+      "cols": 8
+    },
+    "targetPar": 10,
+    "vehicles": [
+      {
+        "id": "car_1",
+        "row": 0,
+        "col": 1,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#EF4444",
+        "type": "sedan"
+      },
+      {
+        "id": "car_2",
+        "row": 1,
+        "col": 4,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#3B82F6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_3",
+        "row": 2,
+        "col": 2,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#10B981",
+        "type": "sports"
+      },
+      {
+        "id": "car_4",
+        "row": 3,
+        "col": 1,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#FACC15",
+        "type": "taxi"
+      },
+      {
+        "id": "car_5",
+        "row": 4,
+        "col": 3,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#8B5CF6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_6",
+        "row": 4,
+        "col": 5,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#F97316",
+        "type": "police"
+      },
+      {
+        "id": "car_7",
+        "row": 5,
+        "col": 1,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#EC4899",
+        "type": "sedan"
+      },
+      {
+        "id": "car_8",
+        "row": 6,
+        "col": 2,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#06B6D4",
+        "type": "sedan"
+      },
+      {
+        "id": "car_9",
+        "row": 6,
+        "col": 4,
+        "length": 3,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#EAB308",
+        "type": "truck"
+      },
+      {
+        "id": "car_10",
+        "row": 1,
+        "col": 7,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#A855F7",
+        "type": "sedan"
+      }
+    ],
+    "obstacles": [
+      {
+        "row": 0,
+        "col": 7,
+        "type": "cone"
+      },
+      {
+        "row": 7,
+        "col": 0,
+        "type": "barrier"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Grand Central Jam",
+    "difficulty": "Expert",
+    "gridSize": {
+      "rows": 8,
+      "cols": 8
+    },
+    "targetPar": 11,
+    "vehicles": [
+      {
+        "id": "car_1",
+        "row": 0,
+        "col": 3,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#EF4444",
+        "type": "sedan"
+      },
+      {
+        "id": "car_2",
+        "row": 1,
+        "col": 0,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#3B82F6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_3",
+        "row": 1,
+        "col": 5,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#10B981",
+        "type": "sedan"
+      },
+      {
+        "id": "car_4",
+        "row": 2,
+        "col": 2,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#FACC15",
+        "type": "taxi"
+      },
+      {
+        "id": "car_5",
+        "row": 3,
+        "col": 3,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#8B5CF6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_6",
+        "row": 4,
+        "col": 1,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#F97316",
+        "type": "police"
+      },
+      {
+        "id": "car_7",
+        "row": 4,
+        "col": 4,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#EC4899",
+        "type": "ambulance"
+      },
+      {
+        "id": "car_8",
+        "row": 5,
+        "col": 6,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#06B6D4",
+        "type": "sedan"
+      },
+      {
+        "id": "car_9",
+        "row": 6,
+        "col": 1,
+        "length": 3,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#6366F1",
+        "type": "truck"
+      },
+      {
+        "id": "car_10",
+        "row": 6,
+        "col": 4,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#14B8A6",
+        "type": "sports"
+      },
+      {
+        "id": "car_11",
+        "row": 2,
+        "col": 4,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#F43F5E",
+        "type": "sedan"
+      }
+    ],
+    "obstacles": []
+  },
+  {
+    "id": 20,
+    "name": "Supermarket Rush",
+    "difficulty": "Master",
+    "gridSize": {
+      "rows": 8,
+      "cols": 8
+    },
+    "targetPar": 11,
+    "vehicles": [
+      {
+        "id": "car_1",
+        "row": 0,
+        "col": 1,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#EF4444",
+        "type": "sports"
+      },
+      {
+        "id": "car_2",
+        "row": 1,
+        "col": 2,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#3B82F6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_3",
+        "row": 2,
+        "col": 0,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#10B981",
+        "type": "sedan"
+      },
+      {
+        "id": "car_4",
+        "row": 2,
+        "col": 5,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#FACC15",
+        "type": "taxi"
+      },
+      {
+        "id": "car_5",
+        "row": 3,
+        "col": 2,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#8B5CF6",
+        "type": "police"
+      },
+      {
+        "id": "car_6",
+        "row": 4,
+        "col": 3,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#F97316",
+        "type": "sedan"
+      },
+      {
+        "id": "car_7",
+        "row": 5,
+        "col": 1,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#EC4899",
+        "type": "sedan"
+      },
+      {
+        "id": "car_8",
+        "row": 5,
+        "col": 5,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#06B6D4",
+        "type": "ambulance"
+      },
+      {
+        "id": "car_9",
+        "row": 6,
+        "col": 2,
+        "length": 3,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#EAB308",
+        "type": "truck"
+      },
+      {
+        "id": "car_10",
+        "row": 7,
+        "col": 4,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#6366F1",
+        "type": "sedan"
+      },
+      {
+        "id": "car_11",
+        "row": 0,
+        "col": 7,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#14B8A6",
+        "type": "sedan"
+      }
+    ],
+    "obstacles": [
+      {
+        "row": 3,
+        "col": 0,
+        "type": "barrier"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "type": "barrier"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "The Octagon Trap",
+    "difficulty": "Master",
+    "gridSize": {
+      "rows": 8,
+      "cols": 8
+    },
+    "targetPar": 12,
+    "vehicles": [
+      {
+        "id": "car_1",
+        "row": 0,
+        "col": 2,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#EF4444",
+        "type": "sedan"
+      },
+      {
+        "id": "car_2",
+        "row": 0,
+        "col": 5,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#3B82F6",
+        "type": "sports"
+      },
+      {
+        "id": "car_3",
+        "row": 1,
+        "col": 1,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#10B981",
+        "type": "sedan"
+      },
+      {
+        "id": "car_4",
+        "row": 2,
+        "col": 3,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#FACC15",
+        "type": "taxi"
+      },
+      {
+        "id": "car_5",
+        "row": 3,
+        "col": 2,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#8B5CF6",
+        "type": "police"
+      },
+      {
+        "id": "car_6",
+        "row": 4,
+        "col": 4,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#F97316",
+        "type": "sedan"
+      },
+      {
+        "id": "car_7",
+        "row": 4,
+        "col": 0,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#EC4899",
+        "type": "sedan"
+      },
+      {
+        "id": "car_8",
+        "row": 5,
+        "col": 2,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#06B6D4",
+        "type": "sedan"
+      },
+      {
+        "id": "car_9",
+        "row": 6,
+        "col": 1,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#14B8A6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_10",
+        "row": 6,
+        "col": 5,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#EAB308",
+        "type": "ambulance"
+      },
+      {
+        "id": "car_11",
+        "row": 7,
+        "col": 2,
+        "length": 3,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#6366F1",
+        "type": "truck"
+      },
+      {
+        "id": "car_12",
+        "row": 2,
+        "col": 6,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#F43F5E",
+        "type": "sedan"
+      }
+    ],
+    "obstacles": [
+      {
+        "row": 0,
+        "col": 0,
+        "type": "cone"
+      },
+      {
+        "row": 7,
+        "col": 7,
+        "type": "cone"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "The Wall Street Jam",
+    "difficulty": "Master",
+    "gridSize": {
+      "rows": 8,
+      "cols": 8
+    },
+    "targetPar": 12,
+    "vehicles": [
+      {
+        "id": "car_1",
+        "row": 0,
+        "col": 4,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#EF4444",
+        "type": "sedan"
+      },
+      {
+        "id": "car_2",
+        "row": 1,
+        "col": 1,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#3B82F6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_3",
+        "row": 1,
+        "col": 5,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#10B981",
+        "type": "taxi"
+      },
+      {
+        "id": "car_4",
+        "row": 2,
+        "col": 2,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#FACC15",
+        "type": "sedan"
+      },
+      {
+        "id": "car_5",
+        "row": 3,
+        "col": 3,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#8B5CF6",
+        "type": "sports"
+      },
+      {
+        "id": "car_6",
+        "row": 4,
+        "col": 1,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#F97316",
+        "type": "police"
+      },
+      {
+        "id": "car_7",
+        "row": 4,
+        "col": 5,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#EC4899",
+        "type": "sedan"
+      },
+      {
+        "id": "car_8",
+        "row": 5,
+        "col": 2,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#06B6D4",
+        "type": "sedan"
+      },
+      {
+        "id": "car_9",
+        "row": 6,
+        "col": 3,
+        "length": 3,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#6366F1",
+        "type": "truck"
+      },
+      {
+        "id": "car_10",
+        "row": 7,
+        "col": 0,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#14B8A6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_11",
+        "row": 3,
+        "col": 6,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#EAB308",
+        "type": "sedan"
+      },
+      {
+        "id": "car_12",
+        "row": 0,
+        "col": 0,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#F43F5E",
+        "type": "ambulance"
+      }
+    ],
+    "obstacles": [
+      {
+        "row": 0,
+        "col": 2,
+        "type": "hydrant"
+      },
+      {
+        "row": 7,
+        "col": 6,
+        "type": "barrier"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Chaos Terminal",
+    "difficulty": "Master",
+    "gridSize": {
+      "rows": 8,
+      "cols": 8
+    },
+    "targetPar": 13,
+    "vehicles": [
+      {
+        "id": "car_1",
+        "row": 0,
+        "col": 1,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#EF4444",
+        "type": "sedan"
+      },
+      {
+        "id": "car_2",
+        "row": 0,
+        "col": 5,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#3B82F6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_3",
+        "row": 1,
+        "col": 2,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#10B981",
+        "type": "sedan"
+      },
+      {
+        "id": "car_4",
+        "row": 2,
+        "col": 4,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#FACC15",
+        "type": "taxi"
+      },
+      {
+        "id": "car_5",
+        "row": 3,
+        "col": 0,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#8B5CF6",
+        "type": "sports"
+      },
+      {
+        "id": "car_6",
+        "row": 3,
+        "col": 2,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#F97316",
+        "type": "police"
+      },
+      {
+        "id": "car_7",
+        "row": 4,
+        "col": 4,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#EC4899",
+        "type": "sedan"
+      },
+      {
+        "id": "car_8",
+        "row": 5,
+        "col": 1,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#06B6D4",
+        "type": "sedan"
+      },
+      {
+        "id": "car_9",
+        "row": 5,
+        "col": 5,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#14B8A6",
+        "type": "ambulance"
+      },
+      {
+        "id": "car_10",
+        "row": 6,
+        "col": 2,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#EAB308",
+        "type": "sedan"
+      },
+      {
+        "id": "car_11",
+        "row": 7,
+        "col": 3,
+        "length": 3,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#6366F1",
+        "type": "truck"
+      },
+      {
+        "id": "car_12",
+        "row": 2,
+        "col": 7,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#F43F5E",
+        "type": "sedan"
+      },
+      {
+        "id": "car_13",
+        "row": 6,
+        "col": 0,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#84CC16",
+        "type": "sedan"
+      }
+    ],
+    "obstacles": [
+      {
+        "row": 1,
+        "col": 6,
+        "type": "cone"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Maximum Overdrive",
+    "difficulty": "Grandmaster",
+    "gridSize": {
+      "rows": 8,
+      "cols": 8
+    },
+    "targetPar": 14,
+    "vehicles": [
+      {
+        "id": "car_1",
+        "row": 0,
+        "col": 0,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#EF4444",
+        "type": "sports"
+      },
+      {
+        "id": "car_2",
+        "row": 0,
+        "col": 4,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#3B82F6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_3",
+        "row": 1,
+        "col": 2,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#10B981",
+        "type": "sedan"
+      },
+      {
+        "id": "car_4",
+        "row": 2,
+        "col": 4,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#FACC15",
+        "type": "taxi"
+      },
+      {
+        "id": "car_5",
+        "row": 2,
+        "col": 0,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#8B5CF6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_6",
+        "row": 3,
+        "col": 2,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#F97316",
+        "type": "police"
+      },
+      {
+        "id": "car_7",
+        "row": 4,
+        "col": 1,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#EC4899",
+        "type": "sedan"
+      },
+      {
+        "id": "car_8",
+        "row": 4,
+        "col": 4,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#06B6D4",
+        "type": "ambulance"
+      },
+      {
+        "id": "car_9",
+        "row": 5,
+        "col": 3,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#14B8A6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_10",
+        "row": 6,
+        "col": 0,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#EAB308",
+        "type": "sedan"
+      },
+      {
+        "id": "car_11",
+        "row": 6,
+        "col": 5,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#6366F1",
+        "type": "sedan"
+      },
+      {
+        "id": "car_12",
+        "row": 7,
+        "col": 2,
+        "length": 3,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#F43F5E",
+        "type": "truck"
+      },
+      {
+        "id": "car_13",
+        "row": 1,
+        "col": 6,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#84CC16",
+        "type": "sedan"
+      },
+      {
+        "id": "car_14",
+        "row": 3,
+        "col": 6,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#A855F7",
+        "type": "sedan"
+      }
+    ],
+    "obstacles": [
+      {
+        "row": 1,
+        "col": 7,
+        "type": "barrier"
+      },
+      {
+        "row": 7,
+        "col": 0,
+        "type": "hydrant"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Ultimate Car Escape",
+    "difficulty": "Grandmaster",
+    "gridSize": {
+      "rows": 8,
+      "cols": 8
+    },
+    "targetPar": 15,
+    "vehicles": [
+      {
+        "id": "car_1",
+        "row": 0,
+        "col": 3,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#EF4444",
+        "type": "sports"
+      },
+      {
+        "id": "car_2",
+        "row": 0,
+        "col": 6,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#3B82F6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_3",
+        "row": 1,
+        "col": 0,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#10B981",
+        "type": "sedan"
+      },
+      {
+        "id": "car_4",
+        "row": 2,
+        "col": 2,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#FACC15",
+        "type": "taxi"
+      },
+      {
+        "id": "car_5",
+        "row": 2,
+        "col": 5,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#8B5CF6",
+        "type": "sedan"
+      },
+      {
+        "id": "car_6",
+        "row": 3,
+        "col": 1,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#F97316",
+        "type": "police"
+      },
+      {
+        "id": "car_7",
+        "row": 3,
+        "col": 3,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#EC4899",
+        "type": "sedan"
+      },
+      {
+        "id": "car_8",
+        "row": 4,
+        "col": 0,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#06B6D4",
+        "type": "sedan"
+      },
+      {
+        "id": "car_9",
+        "row": 5,
+        "col": 2,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#14B8A6",
+        "type": "ambulance"
+      },
+      {
+        "id": "car_10",
+        "row": 5,
+        "col": 4,
+        "length": 2,
+        "orientation": "H",
+        "direction": "right",
+        "color": "#EAB308",
+        "type": "sedan"
+      },
+      {
+        "id": "car_11",
+        "row": 6,
+        "col": 1,
+        "length": 2,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#6366F1",
+        "type": "sedan"
+      },
+      {
+        "id": "car_12",
+        "row": 6,
+        "col": 5,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#F43F5E",
+        "type": "sedan"
+      },
+      {
+        "id": "car_13",
+        "row": 7,
+        "col": 2,
+        "length": 3,
+        "orientation": "H",
+        "direction": "left",
+        "color": "#84CC16",
+        "type": "truck"
+      },
+      {
+        "id": "car_14",
+        "row": 1,
+        "col": 4,
+        "length": 2,
+        "orientation": "V",
+        "direction": "down",
+        "color": "#D946EF",
+        "type": "sedan"
+      },
+      {
+        "id": "car_15",
+        "row": 4,
+        "col": 6,
+        "length": 2,
+        "orientation": "V",
+        "direction": "up",
+        "color": "#0EA5E9",
+        "type": "sports"
+      }
+    ],
+    "obstacles": [
+      {
+        "row": 0,
+        "col": 0,
+        "type": "barrier"
+      },
+      {
+        "row": 7,
+        "col": 7,
+        "type": "cone"
+      }
+    ]
+  }
+]

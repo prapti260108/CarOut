@@ -1,0 +1,11 @@
+{
+  "name": "car-out-game",
+  "version": "1.0.0",
+  "description": "3D Car Out Traffic Parking Jam Game in React and Node.js",
+  "scripts": {
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "test:levels": "cd server && node -e 'const { solveCarOut } = require(\"./src/utils/solver\"); const levels = require(\"./src/data/levels.json\"); levels.forEach(l => { const r = solveCarOut(l); if (!r.solvable) throw new Error(\"Level failed\"); console.log(\"Level \" + l.id + \": OK\"); }); console.log(\"All levels verified!\");'"
+  }
+}
